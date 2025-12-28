@@ -1,0 +1,22 @@
+{
+  "name": "cms-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "formidable": "^3.5.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.4",
+    "next": "^15.0.3",
+    "nodemailer": "^6.9.16",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106"
+  }
+}
