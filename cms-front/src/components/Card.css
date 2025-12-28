@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+}
+
+div.card {
+  /* a width and a black border on the card of latest news and announcement */
+  width: 25vw;
+  position: absolute;
+  border: 2px solid black;
+  height: 87vh;
+  display: flex;
+  right: 2px;
+  top: 140px;
+  bottom: 20px;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #d9ebff;
+}
+
+h2.card-title {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p.card-description {
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.card-content {
+  flex-grow: 1;
+  /* allow this section to grow and take remaining space */
+  overflow-y: auto;
+  /* enable vertical scrolling */
+  padding: 16px;
+  /* padding for content */
+}
+
+/* spacing between each p description.*/
+.card-content p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

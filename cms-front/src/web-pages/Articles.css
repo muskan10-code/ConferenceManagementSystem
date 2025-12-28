@@ -1,0 +1,58 @@
+/* Articles.css */
+
+.articles {
+    padding: 20px;
+}
+
+.article-form input,
+.article-form button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.article-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.article-form button:hover {
+    background-color: #45a049;
+}
+
+.article-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.article-table th,
+.article-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: black;
+}
+
+.article-table th {
+    background-color: #f4f4f4;
+}
+
+.article-table td a {
+    color: #0066cc;
+}
+
+button {
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #e53935;
+}

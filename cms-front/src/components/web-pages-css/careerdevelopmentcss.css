@@ -1,0 +1,89 @@
+.career-development {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #1a237e;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Main content container to stack Articles - Guides vertically */
+.main-content {
+  width: 60%;
+}
+
+.articles,
+.guides {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #1a237e;
+}
+
+.article-grid,
+.guide-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.article-item,
+.guide-item {
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 35%;
+}
+
+.workshops,
+.job-board {
+  background-color: #e8f0ff;
+  padding: 15px;
+  border-radius: 5px;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  /* color: black; */
+}
+
+ul li a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+.article-grid a {
+  color: black;
+}
+
+.guide-grid a {
+  color: black;
+}

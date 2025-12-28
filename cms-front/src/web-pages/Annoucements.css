@@ -1,0 +1,78 @@
+.announcements-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.add-announcement-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.add-announcement-form input,
+.add-announcement-form textarea {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.add-announcement-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-announcement-form button:hover {
+    background-color: #45a049;
+}
+
+.announcements-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.announcements-table th,
+.announcements-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.announcements-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: black;
+}
+
+.announcements-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.announcements-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.announcements-table button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.announcements-table button:hover {
+    background-color: #e60000;
+}

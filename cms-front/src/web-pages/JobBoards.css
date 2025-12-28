@@ -1,0 +1,44 @@
+/* JobBoards.css */
+
+.job-boards {
+    padding: 20px;
+}
+
+.job-board-form input,
+.job-board-form button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.job-board-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.job-board-form button:hover {
+    background-color: #45a049;
+}
+
+.job-board-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.job-board-table th,
+.job-board-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.job-board-table th {
+    background-color: #f4f4f4;
+    color: black;
+}
+
+.job-board-table td a {
+    color: #0066cc;
+}

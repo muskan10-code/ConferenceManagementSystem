@@ -1,0 +1,87 @@
+.sx-react-calendar-wrapper {
+    width: 1200px;
+    max-width: 100vw;
+    height: 800px;
+    max-height: 90vh;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.fc-daygrid-day-number {
+    color: black;
+}
+
+button {
+    float: right;
+}
+
+.fc-event-time {
+    color: black;
+}
+
+.fc-event-title {
+    color: black;
+}
+
+.workshop {
+    color: blue;
+}
+
+/* Calendar container to ensure it doesn't overlap with other components */
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    position: relative;
+}
+
+/* Styling for the export button */
+.export-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.export-button:hover {
+    background-color: #45a049;
+}
+
+/* Wrapper for the calendar */
+.calendar-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    /* Limit max width */
+}
+
+/* Tooltip for event details */
+.event-tooltip {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    max-width: 180px;
+}
+
+.event-title {
+    font-weight: bold;
+}
+
+.event-details {
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.event-details div {
+    margin-bottom: 5px;
+}

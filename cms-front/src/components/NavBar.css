@@ -1,0 +1,105 @@
+/* body {
+  background: rgb(195, 217, 255);
+  navigation bar color as specified in our prototype phase 1.
+} */
+
+li.nav-item {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 8px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  text-decoration: none;
+  /* list-style-type: none;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  text-decoration: none; */
+}
+
+li.nav-item:hover {
+  background-color: rgb(118, 130, 148);
+}
+
+li a {
+  color: black;
+}
+
+nav {
+  background-color: rgb(195, 217, 255);
+  color: white;
+  gap: 10px;
+  justify-content: space-evenly;
+  display: flex;
+  /* padding: 20px; */
+  /* text-align: center; */
+}
+
+img.nav-img {
+  height: 35px;
+  padding: 10px;
+  /* margin-left: 20px; */
+  /* moved icon little top as un-aligned with tabs of nav-bar*/
+}
+
+.profile-drop-down {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* profile button - curser pointer added, bg color added. */
+.profile-button {
+  background-color: #010b16;
+  color: white;
+  border: solid black;
+  padding: 2px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+/* when hover on the button, it turns given color */
+.profile-button:hover {
+  background-color: rgb(110, 110, 218);
+}
+
+.drop-down {
+  position: absolute;
+  right: 0;
+  width: 100px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(195, 217, 255);
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* ensures dropdown appears above other elements */
+}
+
+.drop-down-ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+/* cursor is added as a pointer. */
+.drop-down-li {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/* on hover - color highlights between the options. */
+.drop-down-li:hover {
+  background-color: rgb(195, 217, 255);
+}
+
+/* color for tabs specific -> linked with NavLink class in NavBar.jsx.*/
+.black {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}

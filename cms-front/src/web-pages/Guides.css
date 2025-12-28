@@ -1,0 +1,44 @@
+/* Guides.css */
+
+.guides {
+    padding: 20px;
+}
+
+.guide-form input,
+.guide-form button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.guide-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.guide-form button:hover {
+    background-color: #45a049;
+}
+
+.guide-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.guide-table th,
+.guide-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.guide-table th {
+    background-color: #f4f4f4;
+    color: black;
+}
+
+.guide-table td a {
+    color: #0066cc;
+}

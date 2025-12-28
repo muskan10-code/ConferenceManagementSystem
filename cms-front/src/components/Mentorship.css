@@ -1,0 +1,59 @@
+.mentorship-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.mentors-section {
+    margin-bottom: 20px;
+    float: left;
+    background-color: white;
+    padding: 2%;
+    width: 50%;
+    border-radius: 2%;
+}
+
+
+.mentors-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.mentor-card {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.mentor-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.mentor-form {
+    max-width: 400px;
+    float: right;
+    background-color: white;
+    padding: 5%;
+    border-radius: 2%;
+    width: 50%;
+}
+
+.mentor-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.mentor-form label {
+    margin-top: 10px;
+}
+
+.mentor-form input,
+.mentor-form select,
+.mentor-form button {
+    padding: 8px;
+    margin-top: 5px;
+}

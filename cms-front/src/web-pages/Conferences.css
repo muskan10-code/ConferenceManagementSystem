@@ -1,0 +1,41 @@
+.conferences {
+    padding: 20px;
+}
+
+.conference-form input,
+.conference-form select,
+.conference-form button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.conference-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.conference-table th,
+.conference-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.conference-table th {
+    background-color: #f4f4f4;
+    color: black;
+}
+
+button {
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #e53935;
+}
